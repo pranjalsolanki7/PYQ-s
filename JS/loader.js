@@ -14,7 +14,7 @@ function loadSubject(subject) {
 
   // Load subject file
   const script = document.createElement("script");
-  script.src = "subjects/" + subject + ".js";
+  script.src = "Subjects/" + subject + ".js";
   document.body.appendChild(script);
 }
 
