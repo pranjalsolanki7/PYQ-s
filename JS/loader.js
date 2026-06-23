@@ -14,8 +14,8 @@ function loadSubject(subject) {
 
   // Load subject file
   const script = document.createElement("script");
-  script.src = "Subjects/" + subject + ".js";
-  document.body.appendChild(script);
+script.src = "./Subjects/" + subject + ".js";
+document.body.appendChild(script);
 }
 
 // Go back to subject cards
