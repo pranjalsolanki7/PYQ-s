@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class X CBSE | PYQs</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="top-header">
+  <h1>✨ Welcome Champs ✨</h1>
+  <h2>(LIS) Lotus International School</h2>
+  <p>Class X – CBSE Previous Year Questions with Answers</p>
+  
+</header>
+
+
+<!-- ===== SUBJECT CARDS ===== -->
+<section id="subjectSection" class="card-container">
+
+  <!-- Each card calls JS function -->
+  <div class="card maths" onclick="loadSubject('maths')">
+    <span>Maths</span>
+  </div>
+
+  <div class="card science" onclick="loadSubject('science')">
+    <span>Science</span>
+  </div>
+
+  <div class="card geography" onclick="loadSubject('geography')">
+    <span>Geography</span>
+  </div>
+
+  <div class="card history" onclick="loadSubject('history')">
+    <span>History</span>
+  </div>
+
+  <div class="card political" onclick="loadSubject('political')">
+    <span>Political Science</span>
+  </div>
+
+  <div class="card economics" onclick="loadSubject('economics')">
+    <span>Economics</span>
+  </div>
+
+  <div class="card english" onclick="loadSubject('english')">
+    <span>English</span>
+  </div>
+
+  <div class="card it" onclick="loadSubject('it')">
+    <span>IT (402)</span>
+  </div>
+
+</section>
+
+<!-- ===== CONTENT AREA (QUESTIONS) ===== -->
+<section id="contentSection" class="hidden">
+  <button class="back-btn" onclick="goBack()">⬅ Back to Subjects</button>
+  <h2 id="subjectTitle"></h2>
+
+  <!-- Questions will come here -->
+  <div id="questionArea"></div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  Designed by <b>Pranjal Solanki</b> ❤️
+</footer>
+
+<!-- JS -->
+<script src="JS/loader.js"></script>
+</body>
+</html>
+`
